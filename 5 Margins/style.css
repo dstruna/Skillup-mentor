@@ -1,0 +1,30 @@
+body{
+    margin: 0px; /*okrog besedila, ampak tisti kvadrat okoli njeg ne dejansko besedlo
+    SPACE OUTSIDE OF A BORDER*/
+}
+
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    padding: 30px; /*dejansko besedilo koliko ima prostora okoli
+    SPACE INSSIDE BORDER*/
+    /*margin-top: 50px;
+    margin-left: 50px;
+    margin: 50px;
+    */
+
+    margin-left: auto;
+    margin-right: auto; /*To naredi da je element cist vedno na sredini*/
+    
+}
+
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: dodgerblue;
+}

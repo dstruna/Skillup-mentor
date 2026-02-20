@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 250px; 
+    grid-auto-rows: minmax(150px, auto); /*definira min in max prostora da zavzame, auto pomeni da se sam prilagodi največjemu*/
+  /*  grid-row-gap: 20px;
+    grid-column-gap: 10px;*/
+    grid-gap: 20px;/*za oboje da nerabis vsake posebej pisat*/
+    grid-template-areas: 
+    "header header"
+    "sidebar content"
+    "sidebar content"
+    ;
+}
+.grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /*lahko pa naredim tudi takole
+    - grid-column: 1 / -1 in to je isto kot da vzame od prvega stolpca do zadnjega in ga zdruzi*/
+}
+.grid-item-2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid-item-3{
+    grid-row: span 3;
+}

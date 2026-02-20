@@ -1,0 +1,49 @@
+body{
+  background-image: url("road.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; /*autoreize*/
+
+}
+
+p{
+
+  background:linear-gradient(to top, skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+h1{
+  background:linear-gradient(to top, skyblue, lightgreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+/*linear-gradient = za prelivanje ozadja
+to top = za smer prelivanja
+background-repeat = ali se ponavlja ali ne, ce se ponvlja potem se veckrat ponovi kar je do zadnjega objekta na strani
+background-attachment da je vse eno polje in ne samo do zadnjega*/
+
+/*h1{
+  border-top-style: dotted;
+  border-bottom-style:dotted;
+  border-left-style: double;
+  border-left-width: 10px;
+  border-left-color: blueviolet;
+
+
+
+}
+
+
+p{
+  border-style: double;
+  border-width: 5px;
+  border-color: blue;
+  border-radius: 10px;
+  padding: 5px;
+
+    }
+*/

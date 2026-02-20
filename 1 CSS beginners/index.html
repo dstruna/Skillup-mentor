@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+
+  <!--  <style>
+        body{
+            background-color: black;
+        }
+        h1{                                 2. Internal način
+            color: white;
+        }
+        p{
+            background-color: aqua; color:yellow
+        }
+
+    </style>
+-->
+    <link rel="stylesheet" href="style.css"> <!-- 3.način najbolj uporaben-->
+
+</head>
+<body>
+    
+    <!-- 1. Inline = pomeni, da vpises style v vsak element posebej 
+     npr. <body style="background-color: blueviolet;">  -->
+    <!-- 2. Internal = pomeni da vpises style v head in sicer z <style> in notr ime elemneta in v {} daš atribut</style>-->
+    <!-- 3.External = najboljši nacin, ker ga lahko reusas na drugih straneh
+        - id = za specificirat katere barve bi bil kateri paragraph naprimer
+        - class = grupiras in nato jo lahko veckrat uporabis ce npr rabis 2 ali vec delov z istim stylom
+    
+    
+    -->
+
+
+
+    <h1> This is my website</h1>
+
+    <p id="p1" class="odd">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vitae ipsum voluptate eaque ab ipsa quibusdam amet voluptatum consequatur ullam fugiat, nisi porro ratione culpa reprehenderit, maxime fugit ut impedit?</p>
+    <p id="p2" class="even">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vitae ipsum voluptate eaque ab ipsa quibusdam amet voluptatum consequatur ullam fugiat, nisi porro ratione culpa reprehenderit, maxime fugit ut impedit?</p>
+    <p id="p3" class="odd">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vitae ipsum voluptate eaque ab ipsa quibusdam amet voluptatum consequatur ullam fugiat, nisi porro ratione culpa reprehenderit, maxime fugit ut impedit?</p>
+    <p id="p4" class="even">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus vitae ipsum voluptate eaque ab ipsa quibusdam amet voluptatum consequatur ullam fugiat, nisi porro ratione culpa reprehenderit, maxime fugit ut impedit?</p>
+
+</body>
+</html>

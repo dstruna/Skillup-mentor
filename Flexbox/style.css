@@ -1,0 +1,62 @@
+/* BASE STYLES */
+:root {
+  --clr-dark: #0f172a;
+  --clr-light: #f1f5f9;
+  --clr-accent: #e11d48;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: "Roboto", sans-serif;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  border: 10px solid var(--clr-dark);
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: #fb7185;
+  padding: 1em;
+  font-weight: 700;
+  color: var(--clr-light);
+  text-align: center;
+  border: 10px solid var(--clr-accent);
+  border-radius: 10px;
+}
+
+/* END OF BASE STYLES */
+.container {
+  display: flex; /*da pove da je defaul*/
+  /* justify-content: space-evenly; poravna elemente na razlicne nacine vodoravno, ker je to default za flex */
+  /* align-items: baseline;/*poravna elemente na razlicne nacine vertikalno */
+                            /* -baseline = poravna besedila vseh elementov na sredino da so vsi v isti višini*/
+/* flex-wrap: wrap;     /* če imas slucanjno prevec elementov da se ne stiskajo med sabo,  */
+                        /* se pac dajo avtomatsko v drugo vrstico */ 
+/* align-content: flex-start;   /* lahko uporabis samo kadar imas nekaj wraped,  */
+                                /* drugače ne, je pa za   poravnavo vseh elementov kamor zelis  */
+/* gap: 1em; */
+}
+
+.item-2{
+    flex-shrink:2 ;
+}

@@ -1,0 +1,39 @@
+#box1{
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    text-align: center;
+    align-items:center;
+    border: 1px solid;
+    background: aqua;
+
+    position: relative;
+
+   /* position: relative;
+    top: 50px;
+    left: 50px;
+
+    Pozicija določenega elementa, pazi ker se lahko prekriva
+    */
+
+    /*
+        Fixed = bo ostal tam kamor si ga dal tudi ce skrollas haha
+        Sticky = ostane na vrhu oz tam ko ga das ko scrollas top:0px ali bottom:0px or both
+    */
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    align-items:center;
+    border: 1px solid;
+    background: tomato;
+
+    position: absolute; /*Point je da je pozicija odvisna od necesa drugega ce imas definirano, če ne je od cele strani odvisno kje bo pozicija elementa*/
+    top: 100px;
+    left: 100px;
+
+}
+

@@ -1,0 +1,21 @@
+*{padding: 0;
+margin: 0;
+font-size: 40px;
+box-sizing: border-box;/* to se uporablja zato ker ko dolocis weight in height to pomeni da bo ostalo dejansko to velikost in se nebodo borderji in vse sestevalo, pac se vsebina zmanjsa tok da bo pogoj za broderje in ostalo ostal okej */
+
+
+}
+
+.box-one{
+   
+    background-color: red;
+    padding: 20px; /* okoli elementa, ponavadi besedilo */
+    border: 20px solid brown;/* malo bolj okoli */
+    margin: 20px;/* okoli borderja, za ločevanje elementov */
+    
+    
+}
+.box-two{
+    background-color: cyan;
+    border: 0 solid greenyellow
+}
